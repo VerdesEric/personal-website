@@ -403,6 +403,10 @@ nav ul li a:hover {
     height: 800px;
     display: flex;
     flex-direction: row;
+    opacity: 0;
+    transform: translateY(-40px); /* create interactivity and animation for start of document */
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .about-me img {
@@ -414,7 +418,7 @@ nav ul li a:hover {
 
 .personal-portrait {
     position: absolute;
-    top: 10.5%;
+    top: 0;
     left: 13%;
 }
 
