@@ -1,0 +1,127 @@
+<?php $page_title = 'About me'; ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/site.css">
+  <title>About me | Eric David Verdes</title>
+  <?php include('includes/header.php'); ?>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="about-me">
+    <!-- <img src="images/Background-about.png" alt="Design About Me Picture"> -->
+    <div class="personal-portrait">
+      <img src="images/Badge1.svg" alt="Personal Portrait">
+    </div>
+  <div class="about-me-p">
+    <h2>About myself</h2>
+    <p>I am a student-athlete at Cornell University, pursuing a degree in Information Science with concentrations in UX Design & Data Science and a minor in Business. </p>
+    <p>Growing up, I was always drawn to <b>improving the world around me</b>—whether through creativity, problem-solving, or the pursuit of excellence in sport. This passion led me to UX design, where I can combine innovation with human-centered thinking to create <b>solutions that enhance</b> everyday experiences. By exploring how technology can elevate lives, I strive to design experiences that are not only functional but also impactful.</p>
+  </div>
+  </div>
+  <div class="education">
+    <div class="education1">
+      <h3>Education</h3>
+      <p class="text">Information Science @ Cornell University</p>
+      <p>UX design & Data Science Concentrations</p>
+      <p class="date">Aug 2023 - May 2027</p>
+    </div>
+    <div class="experience">
+      <h3>Experience</h3>
+      <p class="text">UX/UI Designer @ Orion Innovation</p>
+      <p class="date">June - August 2025</p>
+      <p class="text">Teaching Assistant @ Cornell University</p>
+      <p class="date">September - December 2024</p>
+      <p class="text">Asset Management Intern @ A&E Real Estate</p>
+      <p class="date">June - July 2024</p>
+    </div>
+  </div>
+  <div class="toolkit">
+    <h2>Toolkit</h2>
+  </div>
+  <div class="skills">
+    <div class="tools">
+      <h3>Tools</h3>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>PHP</p>
+      <p>SQL</p>
+      <p>Python</p>
+      <p>RStudion</p>
+      <p>C++</p>
+    </div>
+    <div class="tools">
+      <h3>Skills</h3>
+      <p>UX/UI</p>
+      <p>Data Analytics</p>
+      <p>Wireframing</p>
+      <p>Prototyping</p>
+      <p>UX Research</p>
+      <p>Web Design</p>
+    </div>
+  </div>
+  <!-- <div class="certifications-title">
+    <h3>Certifications</h3>
+  </div>
+  <div class="certifications">
+    <a href="https://credentials.databricks.com/d03041ce-8bed-492a-85d1-2012d903b0ac#acc.y7wfDrt4">
+      <div class="accreditation">
+        <h4>Generative AI Fundamentals</h4>
+        <p>Data Bricks</p>
+        <p class="date">Issued Mar 2025</p>
+        <img src="images/DataBricks.svg" alt="DataBricks AI Certification Badge">
+      </div>
+    </a>
+    <a href="https://www.cloudskillsboost.google/course_templates/536">
+      <div class="accreditation">
+        <h4>Introduction to Generative AI</h4>
+        <p>Google Cloud Skill Boost</p>
+        <p class="date">Issued Jan 2025</p>
+        <img src="images/Google.svg" alt="Google AI Certification Badge">
+      </div>
+    </a>
+    <a href="https://verify.skilljar.com/c/n3sgnfs8t5sv">
+      <div class="accreditation">
+        <h4>Speedrun: Your First AIP Workflow</h4>
+        <p>Palantir Technologies</p>
+        <p class="date">Issued Apr 2025</p>
+        <img src="images/Palantir.svg" alt="Palantir Speedrun Certification Badge">
+      </div>
+    </a>
+  </div> -->
+
+  <!--Source:(original work) Verdes Eric David-->
+  <!-- <h2>The real me</h2>
+                     <p>I am disciplined, and I find joy in following the process of my personal development as a person and as a tennis player. One of my biggest inspirations is Kobe Bryant, and I learned from him that the work ethic that someone has to have in order to achieve true greatness has to be unmatchable. I like to push myself beyond what my mind tells me because I believe that limits don't exist; it is a matter of what we put our minds to. I like to challenge my body, I like to push myself to exhaustion. I am deeply in love with the work that I put in daily. I am undoubtedly in love with what I do, and the main reason why I play tennis is because tennis makes me a better person. Every. Single. Day.
+                     </p>
+      </div> -->
+  <!--Source:(original work) Verdes Eric David-->
+  <!-- <h2>Things that I enjoy doing</h2>
+
+                <p>I enjoy playing other sports, such as volleyball and basketball;</p>
+                <p>I like the extreme things like skydiving or cliff jumping, although I never done the first one;</p>
+                <p>I like reading, walking, and being in nature;</p>
+                <p>I like challenging situations, and I like the feeling of overcoming them;</p>
+                <p>I like limits, and I like to get past them;</p>
+                <p>I like to work as hard as I can to achieve what I want;</p>
+                <p>I like the process of being a student at Cornell;</p>
+     </div>
+</div>
+       <picture class="voley">
+        Source:(original work) Verdes Eric David
+                <img src="images/meoutsidetennis.jpg" alt="Photo of me playing voleyball" width="550" height="550">
+       </picture> -->
+  </section>
+  <?php include('includes/footer.php'); ?>
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/carousel.js"></script>
+</body>
+
+</html>

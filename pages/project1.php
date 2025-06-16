@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Credibility Companion | Project 1</title>
+    <?php include('includes/header.php'); ?>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="credibility-companion">
+        <div class="statement">
+            <h2>Beyond Headlines. Toward Truth.</h2>
+            <p>UX/UI. UX/UI Research. Design Strategy.
+            <p>
+        </div>
+        <img src="images/Mockup1-Large.svg" alt="Mockup Community Companion">
+    </div>
+    <div class="detailsone">
+        <div class="details1">
+            <h4>Role
+                <p>UX/UI Designer and Researcher</p>
+            </h4>
+        </div>
+        <div class="details1">
+            <h4>Team
+                <p>Eric Verdes</p>
+                <p>Abhimanyu Kumar</p>
+                <p>Alex Thom</p>
+                <p>Bennet Santora</p>
+            </h4>
+        </div>
+        <div class="details1">
+            <h4>Timeline
+                <p>Jan 2025 - May 2025</p>
+            </h4>
+        </div>
+        <div class="details1">
+            <h4>Tools
+                <p>Figma</p>
+            </h4>
+        </div>
+        <div class="details2">
+            <h4>Class
+                <p>INFO 4400 - Qualitative User Research and Design Methods</p>
+            </h4>
+        </div>
+    </div>
+    <div class="report-button">
+        <a href="https://docs.google.com/document/d/1sErLPkanCT13JwDCmq4_LOmbdv9Amq5KPKqIreu3lps/edit?tab=t.0#heading=h.9jwg078ysohe">View Report</a>
+    </div>
+    <div class="design-proj1">
+        <h3>Overview</h3>
+        <p>Gen Z isn’t turning to cable news—they’re tuning into <b>political podcasts</b> while walking, commuting, or working out. These shows feel personal and authentic, but that intimacy <b>can mask misinformation</b>. In a space where opinion and fact blur easily and multitasking is the norm, critical thinking often happens after the episode ends.</p>
+        <p>Our project explored how Gen Z engages with political podcasts, how they build trust, and what prompts reflection or skepticism. Using diary studies and cultural probes, we uncovered that trust is shaped more by transparency than neutrality—and that the podcast ecosystem lacks tools to support informed, reflective listening. This research laid the foundation for designing solutions that promote media literacy in today’s decentralized media environment.</p>
+        <h3>The Challenge</h3>
+        <p class="inline">How might we design a solution that helps Gen Z critically engage with political podcasts without disrupting the authentic, immersive experience they value?</p>
+        <p>The Credibility Companion was born from a challenge we observed in Gen Z’s media habits: the tension between emotionally engaging content and the lack of tools to assess credibility in real time. Podcasts foster trust through personality and storytelling, but often blur fact and opinion. We saw this as an <b>opportunity</b> to design an intervention that strengthens <b>critical reflection without compromising the listening experience</b>.</p>
+        <h3>Solution</h3>
+        <p><b>A post-listening credibility tool for political podcast consumers</b>. The Credibility Companion introduces fact-check summaries, community-driven credibility notes, and hands-free audio prompts—allowing Gen Z listeners to reflect on political content after listening, while preserving the authenticity and flow of the podcast experience.</p>
+        <h3>Literature Review & Background</h3>
+        <p>Gen Z’s turn to political podcasts creates new trust and misinformation challenges. Existing research on emotional engagement, trust formation, and media habits shaped our understanding of the problem.</p>
+        <div class="literature">
+            <img src="images/Insights.svg" alt="Literature Review Insights">
+        </div>
+        <div class="user-research">
+            <h3>User research</h3>
+            <p>We conducted initial contextual interviews with Gen Z podcast listeners to explore how they <b>engage</b> with political content, build trust, and navigate potential misinformation.</p>
+            <p>User interviews revealed that Gen Z values <b>accessible, simplified political news</b> but struggles with misinformation, bias, and emotionally charged content; fact-checking habits varied, highlighting a need for tools that support post-listening reflection and credibility assessment. User interviews led to the development of the following user profiles.</p>
+            <img src="images/Interviewees.svg" alt="Interviewees - Personas">
+            <div class="diary-study">
+                <h3>Diary Study</h3>
+                <p>We conducted a <b>five-day diary study</b> to capture participants’ real-time reactions to political podcasts, minimizing recall bias and revealing how emotions, trust, and credibility assessments developed during natural listening.</p>
+                <img src="images/Timeline-DiaryStudy.svg" alt="Timeline of the Diary Study">
+            </div>
+            <div class="cultural-probe">
+                <h3>Cultural Probe</h3>
+                <p>We used cultural probes to encourage participants to reflect <b>more deeply on their emotions, trust, and media habits</b>, allowing us to capture personal insights that wouldn’t surface through structured methods alone.</p>
+                <img src="images/CulturalProbe.svg" alt="Timeline of the Cultural Probe">
+            </div>
+            <div class="findings">
+                <h3>Findings</h3>
+                <div class="finding1">
+                    <p>Political podcasts exposed participants to diverse viewpoints, fostering curiosity and more balanced political thinking.</p>
+                </div>
+                <div class="finding1">
+                    <p>Emotionally charged content often led to post-listening research, fact-checking, and critical evaluation.</p>
+                </div>
+                <div class="finding1">
+                    <p>Participants trusted podcasts that openly disclosed bias and cited sources, valuing authenticity over neutrality.</p>
+                </div>
+                <div class="finding1">
+                    <p>Multitasking while listening reduced real-time reflection but highlighted the importance of post-listening tools to support deeper processing.</p>
+                </div>
+            </div>
+        </div>
+        <div class="solution">
+            <h3>How might we?</h3>
+            <p><b>Create a solution for Gen Z political podcast listeners by helping them receive post-listening fact-checks, access credibility notes, and get hands-free auditory feedback without interrupting their listening experience</b>. So that they feel empowered to critically evaluate information, navigate misinformation confidently, and stay informed while engaging naturally with podcast content.</p>
+        </div>
+
+        <div class="ideation">
+            <div class="ideation-text">
+                <h3>Concept Ideation</h3>
+                <p>I sketched low-fidelity wireframes to <b>explore core solutions</b>, focusing on seamless integration with natural listening habits. Key features included <b>post-listening fact-check summaries, community-submitted credibility notes, and podcast credibility screens</b>—all designed to support critical reflection without interrupting the immersive podcast experience.</p>
+            </div>
+            <img src="images/SketchesCC.svg" alt="Sketches Credibility Companion">
+        </div>
+        <div class="about-cc">
+            <h3>About Credibility Companion</h3>
+            <p>Credibility Companion is your <b>all-in-one political podcast credibility tool</b>—helping listeners reflect on content, access fact-check summaries, and engage with community-driven insights without disrupting their listening flow. It keeps podcast engagement and credibility assessment in sync, ensuring a <b>seamless, reflective experience from listening to post-episode evaluation</b>.</p>
+        </div>
+
+        <div class="features-cc">
+            <h3>Features</h3>
+            <img src="images/MockupCC.svg" alt="Mokcup of the Home Page">
+            <div class="feature-format-cc">
+                <h4>01.</h4>
+                <p>Delivers credibility assessments after each episode, allowing users to reflect without interrupting their listening.</p>
+                <h4>02.</h4>
+                <p>Enables listeners to contribute, upvote, and review credibility notes, building a collaborative fact-checking ecosystem.</p>
+                <h4>03.</h4>
+                <p>Provides real-time audio feedback, giving users credibility insights while they multitask, without breaking the podcast flow.</p>
+            </div>
+        </div>
+        <div class="feature1">
+            <h3>Feature 01. : Post Listening Fact-Check Summaries</h3>
+            <p>After finishing an episode, users can <b>review</b> key claims, explore community feedback, and view credibility assessments—all designed to support <b>thoughtful reflection</b> without disrupting the listening experience.</p>
+            <img src="images/Feature1-CC.svg" alt="Feature 1 Mockups">
+        </div>
+        <div class="feature2">
+            <h3>Feature 02. : Community Submitted Credibility Notes</h3>
+            <p>Users can contribute and review credibility notes submitted <b>by the community</b>, creating a collaborative fact-checking system that surfaces diverse perspectives and highlights key information.</p>
+            <img src="images/Feature2-CC.svg" alt="Feature 1 Mockups">
+        </div>
+        <div class="feature3">
+            <h3>Feature 03. : Hands-Free Auditory Feedback</h3>
+            <p>While listening, users receive brief, non-intrusive <b>auditory cues</b> that alert them to potentially disputed claims, allowing them to stay informed <b>without pausing or breaking</b> their natural listening flow.</p>
+            <img src="images/Feature3-CC.svg" alt="Feature 1 Mockups">
+        </div>
+        <div class="reflection">
+            <h3>Reflection & Takeaways</h3>
+            <p>This project deepened my understanding of <b>UX research</b> and its role in effective design. Using methods such as diary studies, cultural probes, and literature reviews, I extracted insights and prioritized user needs while exploring how political podcast consumption shapes media literacy. The experience <b>reinforced the importance</b> of research-driven design in developing tools that foster <b>informed and engaged communities</b>.</p>
+        </div>
+    </div>
+</body>
+<div class="navigation">
+    <div class="navigation1">
+        <p>&lt;</p>
+        <a href="/">Home</a>
+    </div>
+    <div class="navigation2">
+        <a href="/project2">Room Vision</a>
+        <p>&gt;</p>
+    </div>
+</div>
+<?php include('includes/footer.php'); ?>
+
+</html>

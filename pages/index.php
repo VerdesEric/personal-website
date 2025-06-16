@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/site.css">
+    <title>Eric Verdes | Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="main">
+        <h1>Hi! I'm <div class="name">Eric.</div>
+        </h1>
+        <p>a UX Designer crafting intuitive, minimalist, and purpose-driven designs that shape experiences.</p>
+        <div class="button-design">
+            <a href="#intro-projects">Explore My Work &#8595;</a>
+        </div>
+        <div class="button-design1">
+            <a href="/aboutme">Learn About Me</a>
+        </div>
+        <img src="images/Background.jpg" alt="Background photo" class="background-photo">
+    </div>
+    <div class="intro-projects" id="intro-projects">
+        <h2>Crafting Meaningful Experiences</h2>
+        <p>I design intuitive, minimalist, and user-focused digital experiences that enhance usability and elevate user interactions. Below you'll find a selection of my projects, each designed to deliver seamless and engaging solutions that prioritize both functionality and user needs.
+    </div>
+    <div class="first-mockup">
+        <a href="/project1"><img src="images/Mockup1.svg" alt="Credibility Companion Mockup"></a>
+        <div class="description">
+            <h2>Credibility Companion</h2>
+            <p>Transforming political podcast consumption for Gen Z through personalized, reflective, and community-driven tools, enhancing trust and media literacy.</p>
+            <a href="/project1">Explore Project &#8594;</a>
+        </div>
+    </div>
+    <div class="second-mockup">
+        <a href="/project2"><img src="images/Mockup2.svg" alt="Room Vision Mockup"></a>
+        <div class="description1">
+            <h2>Room Vision</h2>
+            <p>Transforming dorm and small-apartment living through personalized, sustainable, and functional design, enhancing comfort and student experience.</p>
+            <a href="/project2">Explore Project &#8594;</a>
+        </div>
+    </div>
+    <div class="third-mockup">
+        <a href="/project3"><img src="images/Mockup3.svg" alt="Tennis House Mockup"></a>
+        <div class="description2">
+            <h2>Tennis House</h2>
+            <p>Designing an innovative eCommerce platform that streamlines entry management and enhances the tennis gear browsing experience.</p>
+            <a href="/project3">Explore Project &#8594;</a>
+        </div>
+    </div>
+</body>
+<?php include('includes/footer.php'); ?>
+
+</html>
