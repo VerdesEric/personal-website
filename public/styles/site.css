@@ -689,14 +689,14 @@ footer h4 {
 .navigation a {
     text-decoration: none;
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
     border: 2px solid white;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 30px;
     text-align: center;
-    width: 250px;
-    height: 30px;
+    width: 230px;
+    height: 25px;
 }
 
 .navigation a:hover {
@@ -713,7 +713,7 @@ footer h4 {
     font-size: 65px;
     color: white;
     margin-right: 30px;
-    margin-top: -13px;
+    margin-top: -16.5px;
 }
 
 .navigation2 {
@@ -725,7 +725,7 @@ footer h4 {
     font-size: 65px;
     color: white;
     margin-left: 30px;
-    margin-top: -13px;
+    margin-top: -16.5px;
 }
 /* project 3 page */
 .tennis-house {

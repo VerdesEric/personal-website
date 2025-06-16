@@ -17,7 +17,6 @@
         "files.trimFinalNewlines": true,
         "files.trimTrailingWhitespace": true,
         "fiveServer.openTerminal": false,
-        "fiveServer.open": "pages/index.html",
         "git.autofetch": true,
         "html.format.wrapLineLength": 0,
         "markdownlint.config": {
