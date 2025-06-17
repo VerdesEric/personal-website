@@ -40,7 +40,7 @@ header nav {
     margin: auto;
     position: relative;
     z-index: 1;
-    margin-left: 920px;
+    margin-left: 850px;
 }
 
 header h1 a {
@@ -124,7 +124,7 @@ nav ul li a:hover {
 
 .main h1 {
     position: absolute;
-    margin-top: 320px;
+    margin-top: 310px;
     margin-left: 450px;
     z-index: 1;
     color: white;
@@ -138,7 +138,7 @@ nav ul li a:hover {
 
 .main p {
     position: absolute;
-    margin-top: 370px;
+    margin-top: 360px;
     margin-left: 450px;
     z-index: 1;
     color: white;
@@ -434,7 +434,7 @@ nav ul li a:hover {
 .about-me-p h2 {
     margin-left: 680px;
     font-size: 28px;
-    color: #0088ff;
+    color: #00eaff;
 }
 
 .about-me-p {
@@ -635,6 +635,18 @@ nav ul li a:hover {
     color: white;
 }
 
+/* .reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(-60px);
+  transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.25, 1.4, 0.5, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
 .design-proj1 {
     background-color: white;
     margin-bottom: 30px;
@@ -701,8 +713,9 @@ nav ul li a:hover {
 }
 
 .finding1 p {
-    width:870px;
-    margin-left:35px;
+    width: 870px;
+    font-size: 18px;
+    margin-left: 35px;
     color: white;
 }
 
@@ -893,9 +906,9 @@ nav ul li a:hover {
 }
 
 .findingone {
-    margin-left:20px;
+    margin-left: 10px;
     margin-bottom: 20px;
-    width: 900px;
+    width: 950px;
     background-color: rgb(118, 175, 255);
     color: black;
     padding-top: 10px;
@@ -903,7 +916,11 @@ nav ul li a:hover {
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 100px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.findingone p {
+    font-size: 18px;
 }
 
 .findings2 {
