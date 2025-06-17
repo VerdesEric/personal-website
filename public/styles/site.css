@@ -40,7 +40,7 @@ header nav {
     margin: auto;
     position: relative;
     z-index: 1;
-    margin-left: 850px;
+    margin-left: 800px;
 }
 
 header h1 a {
@@ -399,7 +399,7 @@ nav ul li a:hover {
 
 /* about me page */
 .about-me {
-    background-color: white;
+    background-color: rgb(142, 142, 142);
     height: 800px;
     display: flex;
     flex-direction: row;
@@ -427,14 +427,12 @@ nav ul li a:hover {
     font-size: 20px;
     margin-left: 680px;
     flex-direction: column;
-    color: black;
+    color: white;
     line-height: 1.5;
 }
 
-.about-me-p h2 {
+.about-me-p img {
     margin-left: 680px;
-    font-size: 28px;
-    color: #00eaff;
 }
 
 .about-me-p {
@@ -457,7 +455,7 @@ nav ul li a:hover {
 
 .education1 h3 {
     font-size: 20px;
-    color: #0088ff;
+    color: #00eaff;
 }
 
 .experience p {
@@ -466,7 +464,7 @@ nav ul li a:hover {
 
 .experience h3 {
     font-size: 20px;
-    color: #0088ff
+    color: #00eaff;
 }
 
 .date {
@@ -491,7 +489,7 @@ nav ul li a:hover {
     padding-left: 250px;
     padding-bottom: 10px;
     background-color: white;
-    color: #0088ff;
+    color: #00eaff;
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 0;
