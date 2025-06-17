@@ -89,7 +89,7 @@ nav ul li a:hover {
     z-index: 1;
     position: relative;
     margin-left: 50px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 /* home page */
@@ -399,40 +399,41 @@ nav ul li a:hover {
 
 /* about me page */
 .about-me {
-    background-color: rgb(142, 142, 142);
+    background-color: rgb(255, 255, 255);
     height: 800px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
     animation: dropDownFade 1s ease-out forwards;
     animation-delay: 0.5s;
 }
 
-.about-me img {
+.about-me .personal-portrait {
     display: block;
-    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); */
+    /* box-shadow: 0 8px 24px rgba(1, 1, 1, 0.15); */
     border-radius: 20px;
 
 }
 
 .personal-portrait {
     position: absolute;
-    top: 0;
+    top: 27%;
     left: 13%;
 }
 
 .about-me-p p {
     width: 600px;
     font-size: 20px;
-    margin-left: 680px;
+    margin-left: 660px;
+    margin-top:-10px;
     flex-direction: column;
-    color: white;
+    color: black;
     line-height: 1.5;
 }
 
 .about-me-p img {
-    margin-left: 680px;
+    margin-left: 660px;
 }
 
 .about-me-p {
@@ -486,7 +487,7 @@ nav ul li a:hover {
 }
 
 .toolkit h2 {
-    padding-left: 250px;
+    /* padding-left: 250px; */
     padding-bottom: 10px;
     background-color: white;
     color: #00eaff;
@@ -508,6 +509,14 @@ nav ul li a:hover {
     width: 150px;
 }
 
+.tools h2 {
+    color: #00eaff;
+    font-size: 20px;
+}
+
+.skills1 {
+    margin-top: 38px;
+}
 .certifications-title {
     background-color: white;
 }
@@ -633,17 +642,16 @@ nav ul li a:hover {
     color: white;
 }
 
-/* .reveal-on-scroll {
-  opacity: 0;
-  transform: translateY(-60px);
-  transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.25, 1.4, 0.5, 1);
-  will-change: opacity, transform;
+.scroll-scale {
+  transition: transform 2s ease, opacity 2s ease;
+  transform: scale(0.95);
+  opacity: 0.8;
 }
 
-.reveal-on-scroll.visible {
+.scroll-scale.scaled {
+  transform: scale(1.02);
   opacity: 1;
-  transform: translateY(0);
-} */
+}
 
 .design-proj1 {
     background-color: white;

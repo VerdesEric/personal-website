@@ -5,17 +5,14 @@ scrollBtn.onclick = function () {
     window.scrollTo({ top:0, behavior: "smooth" })
 };
 
-// //scale section
-// const revealObserver = new IntersectionObserver((entries) => {
-//   entries.forEach(entry => {
-//     if (entry.isIntersecting) {
-//       entry.target.classList.add("visible");
-//     }
-//   });
-// }, {
-//   threshold: 0.3
-// });
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("scaled");
+      } else {
+        entry.target.classList.remove("scaled");
+      }
+    });
+  }, { threshold: 0.4 });
 
-// document.querySelectorAll(".reveal-on-scroll").forEach(el => {
-//   revealObserver.observe(el);
-// });
+document.querySelectorAll('.scroll-scale').forEach(el => observer.observe(el));
