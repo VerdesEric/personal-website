@@ -524,7 +524,7 @@ nav ul li a:hover {
 .certifications-title h3 {
     padding-left: 250px;
     font-size: 20px;
-    color: #0088ff;
+    color: #00eaff;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -535,6 +535,7 @@ nav ul li a:hover {
     flex-direction: row;
     padding-top: 50px;
     padding-left: 250px;
+    padding-bottom: 75px;
 }
 
 .certifications a {
