@@ -481,7 +481,7 @@ nav ul li a:hover {
 .skills {
     background-color: white;
     padding-left: 250px;
-    padding-bottom: 75px;
+    padding-bottom: 85px;
     display: flex;
     flex-direction: row;
 }
