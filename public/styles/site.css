@@ -40,7 +40,7 @@ header nav {
     margin: auto;
     position: relative;
     z-index: 1;
-    margin-left: 800px;
+    margin-left: 900px;
 }
 
 header h1 a {
@@ -424,9 +424,9 @@ nav ul li a:hover {
 
 .about-me-p p {
     width: 600px;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 660px;
-    margin-top:-10px;
+    margin-top:-16px;
     flex-direction: column;
     color: black;
     line-height: 1.5;
@@ -437,7 +437,7 @@ nav ul li a:hover {
 }
 
 .about-me-p {
-    margin-top: 230px;
+    margin-top: 250px;
 }
 
 .education {
@@ -535,7 +535,7 @@ nav ul li a:hover {
     flex-direction: row;
     padding-top: 50px;
     padding-left: 250px;
-    padding-bottom: 75px;
+    padding-bottom: 45px;
 }
 
 .certifications a {
@@ -571,6 +571,33 @@ nav ul li a:hover {
 
 .accreditation:hover {
     transform: scale(1.02);
+}
+
+.tennis {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+.tennis-p {
+    margin-top: 30px;
+}
+
+.heading {
+    margin-left: 250px;
+}
+
+.tennis-p p{
+    font-size: 19px;
+    margin-left: 250px;
+    width: 600px;
+}
+
+.cornell {
+    margin-left: -180px;
+    margin-bottom: -30px;
 }
 
 /* project 1 page */

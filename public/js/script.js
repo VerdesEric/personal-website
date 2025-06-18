@@ -13,6 +13,6 @@ const observer = new IntersectionObserver(entries => {
         entry.target.classList.remove("scaled");
       }
     });
-  }, { threshold: 0.4 });
+  }, { threshold: 0.2 });
 
 document.querySelectorAll('.scroll-scale').forEach(el => observer.observe(el));
