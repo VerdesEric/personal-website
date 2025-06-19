@@ -102,7 +102,7 @@ nav ul li a:hover {
     opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
     animation: dropDownFade 1s ease-out forwards;
-    animation-delay: 0.2s;
+    animation-delay: 0.3s;
 }
 
 @keyframes dropDownFade {
@@ -198,7 +198,7 @@ nav ul li a:hover {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 130px;
     padding-bottom: 30px;
 }
@@ -229,7 +229,6 @@ nav ul li a:hover {
 }
 
 .first-mockup img:hover {
-    opacity: 90%;
     transform: scale(1.02);
 }
 
@@ -282,7 +281,6 @@ nav ul li a:hover {
 }
 
 .second-mockup img:hover {
-    opacity: 90%;
     transform: scale(1.02);
 }
 
@@ -342,7 +340,6 @@ nav ul li a:hover {
 }
 
 .third-mockup img:hover {
-    opacity: 90%;
     transform: scale(1.02);
 }
 
@@ -406,7 +403,7 @@ nav ul li a:hover {
     opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
     animation: dropDownFade 1s ease-out forwards;
-    animation-delay: 0.2s;
+    animation-delay: 0.3s;
 }
 
 .about-me .personal-portrait {
@@ -487,7 +484,6 @@ nav ul li a:hover {
 }
 
 .toolkit h2 {
-    /* padding-left: 250px; */
     padding-bottom: 10px;
     background-color: white;
     color: #00eaff;
@@ -594,6 +590,7 @@ nav ul li a:hover {
     font-size: 19px;
     margin-left: 250px;
     width: 600px;
+    line-height: 1.5;
 }
 
 .cornell {
@@ -630,10 +627,6 @@ nav ul li a:hover {
     padding-bottom: 150px;
     /* margin-left: 250px; */
     background-color: black;
-    opacity: 0;
-    transform: translateY(-40px);
-    animation: dropDownFade 1s ease-out forwards;
-    animation-delay: 0.5s;
 }
 
 .credibility-companion img {
@@ -653,6 +646,20 @@ nav ul li a:hover {
     color: white;
     margin-top: 5px;
     margin-left: 230px;
+}
+
+.statement {
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.credibility-companion-image {
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.3s;
 }
 
 .detailsone {
@@ -722,7 +729,7 @@ nav ul li a:hover {
 
 .design-proj1 p {
     width: 1000px;
-    font-size: 18px;
+    font-size: 18.5px;
     line-height: 1.5;
     margin-top: 10px;
 }
@@ -855,10 +862,6 @@ nav ul li a:hover {
     padding-bottom: 150px;
     padding-left: 250px;
     background-color: black;
-    opacity: 0;
-    transform: translateY(-40px);
-    animation: dropDownFade 1s ease-out forwards;
-    animation-delay: 0.5s;
 }
 
 .room-vision img{
@@ -878,6 +881,20 @@ nav ul li a:hover {
 .statement1 p{
     color: white;
     margin-top: 5px;
+}
+
+.statement1 {
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.room-vision-image {
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.3s;
 }
 
 .report-button2 {
@@ -925,6 +942,8 @@ nav ul li a:hover {
 .design-proj2 p {
     margin-top: 10px;
     width: 1000px;
+    font-size: 18.5px;
+    line-height: 1.5;
 }
 
 .interviewees img {
@@ -961,6 +980,10 @@ nav ul li a:hover {
     margin-bottom: 100px;
 }
 
+.choice {
+    margin-bottom: 100px;
+}
+
 .findingone {
     margin-left: 10px;
     margin-bottom: 20px;
@@ -972,7 +995,6 @@ nav ul li a:hover {
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 100px;
-    /* text-align: center; */
 }
 
 .findingone p {
@@ -1152,30 +1174,40 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
-    padding-bottom: 190px;
+    padding-bottom: 160px;
     padding-left: 250px;
     background-color: black;
-    opacity: 0;
-    transform: translateY(-40px);
-    animation: dropDownFade 1s ease-out forwards;
-    animation-delay: 0.5s;
 }
 
 .tennis-house img {
-    padding-top: 120px;
+    padding-top: 140px;
     margin-left: -130px;
 }
 
 .statement3 h2{
     color: rgb(254, 242, 75);
     font-size: 35px;
-    padding-top: 250px;
-    margin-bottom: 0
+    padding-top: 280px;
+    margin-bottom: 0;
 }
 
 .statement3 p{
     color: white;
     margin-top: 5px;
+}
+
+.statement3 {
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.tennis-house-image {
+    opacity: 0;
+    transform: translateY(-40px);
+    animation: dropDownFade 1s ease-out forwards;
+    animation-delay: 0.3s;
 }
 
 .details {
@@ -1242,7 +1274,7 @@ nav ul li a:hover {
 
 .design-proj3 p {
     width: 1000px;
-    font-size: 18px;
+    font-size: 18.5px;
     line-height: 1.5;
     margin-top: 10px;
 }
