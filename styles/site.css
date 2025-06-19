@@ -595,29 +595,10 @@ nav ul li a:hover {
 
 .cornell {
     margin-left: -180px;
-    margin-bottom: -30px;
+    margin-bottom: -32.8px;
 }
 
-.photos-tennis h3 {
-    color: #00eaff;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    margin-left: 250px;
-}
 
-.photos {
-    margin-left: 220px;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-gap: 50px;
-    margin-bottom: 150px;
-}
-
-.photos img{
-    display: block;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 /* project 1 page */
 .credibility-companion {
