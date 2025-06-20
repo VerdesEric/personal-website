@@ -123,7 +123,7 @@ nav ul li a:hover {
 .main h1 {
     position: absolute;
     margin-top: 310px;
-    margin-left: 450px;
+    margin-left: 30.65%;
     z-index: 1;
     color: white;
     width: 500px;
@@ -137,7 +137,7 @@ nav ul li a:hover {
 .main p {
     position: absolute;
     margin-top: 360px;
-    margin-left: 450px;
+    margin-left: 30.65%;
     z-index: 1;
     color: white;
     width: 600px;
@@ -148,8 +148,8 @@ nav ul li a:hover {
 .button-design a {
     position: absolute;
     z-index: 1;
-    margin-top: 500px;
-    margin-left: 520px;
+    margin-top: 490px;
+    margin-left: 35.5%;
     border: none;
     background-color: white;
     text-decoration: none;
@@ -171,8 +171,8 @@ nav ul li a:hover {
 .button-design1 a {
     position: absolute;
     z-index: 1;
-    margin-top: 500px;
-    margin-left: 750px;
+    margin-top: 490px;
+    margin-left: 51.5%;
     border: none;
     background-color: #00eaff;
     text-decoration: none;
@@ -193,12 +193,13 @@ nav ul li a:hover {
 
 .intro-projects {
     color: black;
-    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
     margin-bottom: 130px;
     padding-bottom: 30px;
+    width: 85%;
+    max-width: 1000px;
 }
 
 .intro-projects h2 {
@@ -216,7 +217,7 @@ nav ul li a:hover {
 .first-mockup {
     display: flex;
     flex-direction: row;
-    margin-left: 170px;
+    margin-left: 11.3%;
     margin-top: 170px;
     margin-bottom: 170px;
 }
@@ -233,7 +234,7 @@ nav ul li a:hover {
 .description {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 7.7%;
     padding-left: 80px;
     border-left: solid black 1px;
     height: 250px;
@@ -246,7 +247,8 @@ nav ul li a:hover {
 
 .description p {
     color: black;
-    width: 400px;
+    width: 90%;
+    max-width: 450px;
     font-size: 20px;
     margin-top: -7px;
     line-height: 1.5;
@@ -285,7 +287,7 @@ nav ul li a:hover {
 .second-mockup {
     display: flex;
     flex-direction: row;
-    margin-left: 170px;
+    margin-left: 11.3%;
     margin-top: 250px;
     margin-bottom: 170px;
 }
@@ -293,7 +295,7 @@ nav ul li a:hover {
 .description1 {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 7.7%;
     padding-left: 80px;
     border-left: solid black 1px;
     height: 275px;
@@ -306,7 +308,8 @@ nav ul li a:hover {
 
 .description1 p {
     color: black;
-    width: 400px;
+    width: 90%;
+    max-width: 450px;
     font-size: 20px;
     margin-top: -7px;
     line-height: 1.5;
@@ -344,7 +347,7 @@ nav ul li a:hover {
 .third-mockup {
     display: flex;
     flex-direction: row;
-    margin-left: 170px;
+    margin-left: 11.3%;
     margin-top: 250px;
     margin-bottom: 170px;
 }
@@ -352,7 +355,7 @@ nav ul li a:hover {
 .description2 {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 7.7%;
     padding-left: 80px;
     border-left: solid black 1px;
     height: 275px;
@@ -365,7 +368,8 @@ nav ul li a:hover {
 
 .description2 p {
     color: black;
-    width: 400px;
+    width: 90%;
+    max-width: 450px;
     font-size: 20px;
     margin-top: -7px;
     line-height: 1.5;
@@ -1628,38 +1632,75 @@ footer h4 {
         margin-right: auto;
     }
 
-  .main h1,
-  .main p,
-  .button-design a,
-  .button-design1 a {
-    position: static;       /* remove absolute positioning */
-    margin: 10px auto;
-    display: block;
+    .main h1,
+    .main p,
+    .button-design a,
+    .button-design1 a {
+       position: static;       /* remove absolute positioning */
+       margin: 10px auto;
+       display: block;
+       text-align: center;
+       width: 90%;             /* or a max-width like 400px */
+       max-width: 500px;
+  }
+
+    .main h1{
+       margin-top: 300px;
+  }
+    .main p {
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+
+    .button-design a,
+    .button-design1 a {
+       margin-top: 15px;
+  }
+
+    .main {
+       height: auto;           /* allow height to adjust */
+       padding: 40px 20px;
+       text-align: center;
+  }
+
+    .button-design a {
+       width: 200px;
+  }
+
+    .button-design1 a {
+       width: 200px;
+  }
+
+  .first-mockup,
+  .second-mockup,
+  .third-mockup {
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 20px;
+  }
+
+  .description,
+  .description1,
+  .description2 {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    margin-top: 40px;
+    height: auto;
     text-align: center;
-    width: 90%;             /* or a max-width like 400px */
-    max-width: 500px;
   }
 
-  .main h1{
-    margin-top: 300px;
+  .description p,
+  .description1 p,
+  .description2 p {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
   }
 
-  .button-design a,
-  .button-design1 a {
-    margin-top: 15px;
-  }
-
-  .main {
-    height: auto;           /* allow height to adjust */
-    padding: 40px 20px;
-    text-align: center;
-  }
-
-  .button-design a {
-    width: 200px;
-  }
-
-  .button-design1 a {
-    width: 200px;
+  .description a,
+  .description1 a,
+  .description2 a {
+    margin: 30px auto 0 auto;
   }
 }
