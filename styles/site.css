@@ -148,7 +148,7 @@ nav ul li a:hover {
 .button-design a {
     position: absolute;
     z-index: 1;
-    margin-top: 490px;
+    margin-top: 510px;
     margin-left: 35.5%;
     border: none;
     background-color: white;
@@ -171,7 +171,7 @@ nav ul li a:hover {
 .button-design1 a {
     position: absolute;
     z-index: 1;
-    margin-top: 490px;
+    margin-top: 510px;
     margin-left: 51.5%;
     border: none;
     background-color: #00eaff;
