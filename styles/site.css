@@ -400,7 +400,7 @@ nav ul li a:hover {
 .about-me {
     background-color: rgb(255, 255, 255);
     margin-top: 35px;
-    height: 800px;
+    height: 700px;
     display: flex;
     flex-direction:row;
     opacity: 0;
@@ -426,7 +426,7 @@ nav ul li a:hover {
     width: 600px;
     font-size: 19px;
     margin-left: 660px;
-    margin-top:-16px;
+    margin-top:5px;
     flex-direction: column;
     color: black;
     line-height: 1.5;
@@ -437,7 +437,7 @@ nav ul li a:hover {
 }
 
 .about-me-p {
-    margin-top: 150px;
+    margin-top: 155px;
 }
 
 .education {
@@ -445,7 +445,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     padding-left: 250px;
-    padding-top: 75px;
+    /* padding-top: 75px; */
     padding-bottom: 75px;
 }
 
