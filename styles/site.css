@@ -21,18 +21,16 @@ h3 {
 
 /* header design */
 header {
-    position: fixed;
     z-index: 2;
     display: flex;
     flex-direction: row;
     padding-bottom: 5pt;
     width: 100%;
     height: 75px;
-    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent */
+    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(7px);
     isolation: isolate;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 header nav {
@@ -73,7 +71,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     text-align: center;
-    width: 110px;
+    width: 130px;
     font-weight: 500;
     margin-top: 2px;
 }
@@ -94,7 +92,7 @@ nav ul li a:hover {
 .main {
     position: relative;
     width: 100%;
-    height: 800px;
+    height: 900px;
     justify-content: center;
     align-items: center;
     opacity: 0;
@@ -115,19 +113,20 @@ nav ul li a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 850px;
     object-fit: cover;
     z-index: -1;
 }
 
 .main h1 {
+    font-family: 'Bakbak One', sans-serif;
     position: absolute;
-    margin-top: 310px;
-    margin-left: 30.65%;
+    margin-top: 190px;
+    margin-left: 29.75%;
     z-index: 1;
     color: white;
-    width: 500px;
-    font-size: 38px;
+    width: 600px;
+    font-size: 110px;
 }
 
 .name {
@@ -136,20 +135,21 @@ nav ul li a:hover {
 
 .main p {
     position: absolute;
-    margin-top: 360px;
-    margin-left: 30.65%;
+    margin-top: 330px;
+    margin-left: 30%;
     z-index: 1;
     color: white;
     width: 600px;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 1.5;
+    font-weight: 300;
 }
 
 .button-design a {
     position: absolute;
     z-index: 1;
-    margin-top: 510px;
-    margin-left: 35.5%;
+    margin-top: 455px;
+    margin-left: 34.2%;
     border: none;
     background-color: white;
     text-decoration: none;
@@ -171,8 +171,8 @@ nav ul li a:hover {
 .button-design1 a {
     position: absolute;
     z-index: 1;
-    margin-top: 510px;
-    margin-left: 51.5%;
+    margin-top: 455px;
+    margin-left: 50.2%;
     border: none;
     background-color: #00eaff;
     text-decoration: none;
@@ -195,7 +195,7 @@ nav ul li a:hover {
     color: black;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     margin-bottom: 130px;
     padding-bottom: 30px;
     width: 85%;
@@ -399,6 +399,7 @@ nav ul li a:hover {
 /* about me page */
 .about-me {
     background-color: rgb(255, 255, 255);
+    margin-top: 35px;
     height: 800px;
     display: flex;
     flex-direction:row;
@@ -417,7 +418,7 @@ nav ul li a:hover {
 
 .personal-portrait {
     position: absolute;
-    top: 27%;
+    top: 15%;
     left: 13%;
 }
 
@@ -436,7 +437,7 @@ nav ul li a:hover {
 }
 
 .about-me-p {
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .education {
