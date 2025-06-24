@@ -150,12 +150,21 @@ nav ul li a:hover {
     font-weight: 300;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 450px;
+    gap: 40px;
+    margin-left: 34.2%;
+}
+
 .button-design a {
-    position: absolute;
+    /* position: absolute;
     z-index: 1;
     margin-top: 455px;
     margin-left: 34.2%;
-    border: none;
+    border: none; */
+    display: block;
     background-color: white;
     text-decoration: none;
     color: black;
@@ -174,11 +183,12 @@ nav ul li a:hover {
 }
 
 .button-design1 a {
-    position: absolute;
+    /* position: absolute;
     z-index: 1;
     margin-top: 455px;
     margin-left: 50.2%;
-    border: none;
+    border: none; */
+    display: block;
     background-color: #00eaff;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -186,7 +196,7 @@ nav ul li a:hover {
     font-size: 16px;
     border-radius: 50px;
     font-weight: bold;
-    width: 150px;
+    width: 160px;
     text-align: center;
 }
 
@@ -1625,8 +1635,9 @@ footer h4 {
 @media (max-width: 1000px) {
     header {
         flex-direction: column;
-        height: 250px;
-        width: 100%
+        height: 330px;
+        width: 100%;
+        background-color: black;
     }
 
     nav ul {
@@ -1642,7 +1653,7 @@ footer h4 {
         margin-left: auto;
         margin-right: auto;
     }
-    header a{
+    header a {
         margin-left: auto;
         margin-right: auto;
     }
@@ -1660,7 +1671,8 @@ footer h4 {
   }
 
     .main h1{
-       margin-top: 300px;
+       /* margin-top: 20px; */
+       font-size: 100px;
   }
     .main p {
         margin-top: 0px;
@@ -1678,20 +1690,36 @@ footer h4 {
        text-align: center;
   }
 
+  .buttons {
+    padding-top: 0;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+  }
+
     .button-design a {
-       width: 200px;
+       width: 250px;
   }
 
     .button-design1 a {
-       width: 200px;
+       width: 250px;
   }
 
+  .background-photo {
+    height: 1070px;
+  }
+
+  .intro-projects {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
   .first-mockup,
   .second-mockup,
   .third-mockup {
     flex-direction: column;
     align-items: center;
-    margin: 80px 20px;
+    margin: 100px 20px;
   }
 
   .description,
@@ -1717,5 +1745,9 @@ footer h4 {
   .description1 a,
   .description2 a {
     margin: 30px auto 0 auto;
+  }
+
+  footer {
+    
   }
 }
