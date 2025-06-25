@@ -600,7 +600,7 @@ nav ul li a:hover {
     flex-direction: row;
     background-color: black;
     color: white;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .tennis-p {
@@ -614,7 +614,7 @@ nav ul li a:hover {
 .tennis-p p{
     font-size: 20px;
     margin-left: 33%;
-    max-width: 600px;
+    max-width: 800px;
     line-height: 1.5;
 }
 
