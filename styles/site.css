@@ -1643,7 +1643,7 @@ footer h4 {
 @media (max-width: 1000px) {
     header {
         flex-direction: column;
-        height: 330px;
+        height: 350px;
         width: 100%;
         background-color: black;
     }
@@ -1666,6 +1666,7 @@ footer h4 {
         margin-right: auto;
     }
 
+    /* home page */
     .main h1,
     .main p,
     .button-design a,
@@ -1802,10 +1803,6 @@ footer h4 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    /* width: 90%; */
-    /* max-width: 300px; */
-    transform: none;
-    opacity: 1;
   }
 
   .about-me-p {
@@ -1820,8 +1817,6 @@ footer h4 {
     margin: 10px auto;
     width: 90%;
     /* max-width: 100%; */
-    transform: none;
-    opacity: 1;
   }
 
   .about-me-p img{
@@ -1844,6 +1839,7 @@ footer h4 {
 
 .cornell {
     margin-bottom: -20px;
+    margin-left: 0;
 }
 
 .heading {
@@ -1854,17 +1850,51 @@ footer h4 {
 
   .education {
     flex-direction: column;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-left: 0;
+    padding-left: 0;
   }
+
+.education1 {
+    display: block;
+    text-align: center;
+}
+
+.education1 p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience {
+    padding-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
   .skills {
     flex-direction: column;
+    text-align: center;
+    margin-left: 0;
   }
 
+  .skills p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .certifications {
+    margin-left: 0;
+    text-align: center;
+  }
    .certifications-images {
     display: grid;
     grid-template-columns: 1fr;  /* one column */
     grid-gap: 20px;              /* adjust spacing between rows */
+    margin-left: auto;
+    margin-right: auto;
   }
-
 
 }
