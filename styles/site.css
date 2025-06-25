@@ -150,9 +150,8 @@ nav ul li a:hover {
     flex-direction: row;
     /* padding-top: 450px; */
     gap: 40px;
-    /* margin-left: 34.2%; */
+    margin-left: 33.7%;
     margin-top: 40px;
-    justify-content: center;
 }
 
 .button-design a {
