@@ -37,6 +37,7 @@ header nav {
     position: relative;
     z-index: 1;
     margin-left: auto;
+    margin-right: 30px;
 }
 
 h2 {
@@ -50,6 +51,7 @@ nav ul {
     padding: 0px;
     margin: 0px;
     margin-top: 2px;
+    gap: 15px;
 }
 
 nav ul li {
@@ -64,7 +66,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     text-align: center;
-    width: 130px;
+    /* width: 120px; */
     font-weight: 500;
     margin-top: 2px;
 }
@@ -412,7 +414,7 @@ nav ul li a:hover {
 .about-me {
     background-color: black;
     margin-top: -83px;
-    height: 700px;
+    height: 100%;
     display: flex;
     flex-direction:row;
 }
@@ -425,7 +427,7 @@ nav ul li a:hover {
 
 .personal-portrait {
     position: absolute;
-    top: 25%;
+    top: 31%;
     left: 13%;
     opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
@@ -434,7 +436,7 @@ nav ul li a:hover {
 }
 
 .about-me-p p {
-    width: 600px;
+    max-width: 600px;
     font-size: 20px;
     margin-left: 660px;
     margin-top: 5px;
@@ -449,14 +451,14 @@ nav ul li a:hover {
 
 .about-me-p img {
     margin-left: 660px;
-    pacity: 0;
+    opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
     animation: dropDownFade 1s ease-out forwards;
     animation-delay: 0.3s;
 }
 
 .about-me-p {
-    margin-top: 248px;
+    margin-top: 220px;
 }
 
 .education {
@@ -598,7 +600,7 @@ nav ul li a:hover {
     flex-direction: row;
     background-color: black;
     color: white;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .tennis-p {
@@ -612,7 +614,7 @@ nav ul li a:hover {
 .tennis-p p{
     font-size: 20px;
     margin-left: 33%;
-    width: 600px;
+    max-width: 600px;
     line-height: 1.5;
 }
 
@@ -1652,7 +1654,7 @@ footer h4 {
 
     .nav-menu {
         margin-left: auto;
-        margin-right: auto
+        margin-right: auto;
     }
 
     .logo {
@@ -1786,4 +1788,83 @@ footer h4 {
   footer p{
     font-size: 21px;
   }
+
+  /* about me page */
+
+   .about-me {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .personal-portrait {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    /* width: 90%; */
+    /* max-width: 300px; */
+    transform: none;
+    opacity: 1;
+  }
+
+  .about-me-p {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .about-me-p p{
+    margin: 10px auto;
+    width: 90%;
+    /* max-width: 100%; */
+    transform: none;
+    opacity: 1;
+  }
+
+  .about-me-p img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .tennis {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .tennis-p p {
+    margin: 10px auto;
+    width: 90%;
+    text-align: center;
+    max-width: 500px;
+}
+
+.cornell {
+    margin-bottom: -20px;
+}
+
+.heading {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+  .education {
+    flex-direction: column;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+   .certifications-images {
+    display: grid;
+    grid-template-columns: 1fr;  /* one column */
+    grid-gap: 20px;              /* adjust spacing between rows */
+  }
+
+
 }
