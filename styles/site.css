@@ -126,7 +126,26 @@ nav ul li a:hover {
 }
 
 .main .h1{
-    color: #1200D6
+    color: #1200D6;
+    position: relative;
+    cursor:pointer;
+}
+
+.hello-hand {
+  display: inline-block;
+  position: absolute;
+  margin-bottom: -60px;
+  width: 65px;          /* adjust size */
+  margin-left: 10px;    /* spacing from name */
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.5s ease;
+}
+
+/* Show the image when hovering over the name */
+.h1:hover + .hello-hand {
+  opacity: 1;
+  transform: scale(1) translateY(-40px);
 }
 
 .underline-text {
@@ -141,7 +160,7 @@ nav ul li a:hover {
 .main p {
     display: block;
     margin-top: -67px;
-    margin-left: 29%;
+    margin-left: 29.15%;
     z-index: 1;
     color: white;
     max-width: 650px;
@@ -160,11 +179,6 @@ nav ul li a:hover {
 }
 
 .button-design a {
-    /* position: absolute;
-    z-index: 1;
-    margin-top: 455px;
-    margin-left: 34.2%;
-    border: none; */
     display: block;
     background-color: white;
     text-decoration: none;
@@ -175,6 +189,7 @@ nav ul li a:hover {
     font-weight: bold;
     width: 160px;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
 }
 
 .button-design a:hover {
@@ -189,8 +204,7 @@ nav ul li a:hover {
     margin-left: 50.2%;
     border: none; */
     display: block;
-     /* background: linear-gradient(to right, #1100CF, #0A0078); */
-    background-color: #1200D6;
+    background: linear-gradient(to right, #1500ff, #0a007d);
     text-decoration: none;
     color: white;
     padding: 15px;
@@ -199,10 +213,11 @@ nav ul li a:hover {
     font-weight: bold;
     width: 160px;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
 }
 
 .button-design1 a:hover {
-    background-color: #1500ff;
+    background: linear-gradient(to right, #1500ff, #0d009c);
     color: white;
     transition: all 0.3s ease;
 }
