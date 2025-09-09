@@ -72,7 +72,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00eaff;
+    color: #1200D6;
     transition: all 0.2s ease;
 }
 
@@ -117,12 +117,16 @@ nav ul li a:hover {
     font-family: 'Bakbak One', sans-serif;
     display: block;
     margin-top: 190px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 29%;
     z-index: 1;
     color: white;
     max-width: 650px;
-    font-size: 110px;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+
+.main .h1{
+    color: #1200D6
 }
 
 .underline-text {
@@ -136,9 +140,8 @@ nav ul li a:hover {
 
 .main p {
     display: block;
-    margin-top: -90px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-top: -67px;
+    margin-left: 29%;
     z-index: 1;
     color: white;
     max-width: 650px;
@@ -152,8 +155,8 @@ nav ul li a:hover {
     flex-direction: row;
     /* padding-top: 450px; */
     gap: 40px;
-    margin-left: 33.7%;
-    margin-top: 40px;
+    margin-left: 34.7%;
+    margin-top: 45px;
 }
 
 .button-design a {
@@ -175,8 +178,7 @@ nav ul li a:hover {
 }
 
 .button-design a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(214, 214, 214);
     transition: all 0.3s ease;
 }
 
@@ -187,9 +189,10 @@ nav ul li a:hover {
     margin-left: 50.2%;
     border: none; */
     display: block;
-    background-color: #00eaff;
+     /* background: linear-gradient(to right, #1100CF, #0A0078); */
+    background-color: #1200D6;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 15px;
     font-size: 16px;
     border-radius: 50px;
@@ -199,7 +202,7 @@ nav ul li a:hover {
 }
 
 .button-design1 a:hover {
-    background-color: black;
+    background-color: #1500ff;
     color: white;
     transition: all 0.3s ease;
 }
@@ -1488,7 +1491,7 @@ footer {
     color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
-    background-color: rgb(57, 57, 57);
+    background: linear-gradient(to bottom, #000000, #110067);
 }
 
 footer a {
@@ -1511,7 +1514,7 @@ footer h4 {
 .greet {
     font-size: 25px;
     font-weight: 1000;
-    color: #00eaff;
+    color: #1500ff;
     padding-top: 35px;
     margin-left: 50px;
     margin-bottom: 5px;
@@ -1545,7 +1548,7 @@ footer h4 {
 }
 
 .instagram:hover{
-    background-color:#00eaff;
+    background-color:#1500ff;
 }
 
 .linkedin {
@@ -1557,7 +1560,7 @@ footer h4 {
 }
 
 .linkedin:hover {
-    background-color: #00eaff;
+    background-color: #1500ff;
 }
 
 .facebook {
@@ -1567,11 +1570,11 @@ footer h4 {
 }
 
 .facebook:hover {
-    background-color: #00eaff;
+    background-color: #1500ff;
 }
 
 #scrolltotop {
-    background-color: rgb(57, 57, 57);
+    background-color: #0e0053;
     color: white;
     font-family: 'DM Sans', sans-serif;
     padding: 10px;
@@ -1585,7 +1588,8 @@ footer h4 {
 }
 
 #scrolltotop:hover {
-    background-color:#00eaff;
+    background-color:#1500ff;
+    cursor: pointer;
 }
 
 /* navigation (between pages) - bottom of page */

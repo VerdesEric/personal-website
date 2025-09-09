@@ -1,7 +1,7 @@
-<svg width="46" height="40" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M23.6057 3C-0.386066 18.9988 -7.14414 27.2468 23.6057 37.3429" stroke="#00EAFF" stroke-width="5"/>
-<line x1="2.88109" y1="22.9818" x2="15.9938" y2="22.3574" stroke="#00EAFF" stroke-width="5"/>
-<line x1="18.3343" y1="15.5906" x2="28.325" y2="34.9475" stroke="white" stroke-width="5"/>
-<path d="M28.3433 32.9206C33.4461 21.3178 32.32 1.51775 43.9537 11.6904" stroke="white" stroke-width="5"/>
-<circle cx="37.9672" cy="16.7371" r="1.87325" fill="white"/>
+<svg width="44" height="38" viewBox="0 0 44 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.6494 2C-1.3927 17.8391 -8.16496 26.0047 22.6494 36" stroke="#1500FF" stroke-width="4"/>
+<line y1="-2" x2="12.9963" y2="-2" transform="matrix(0.998868 -0.0475659 0.0475644 0.998868 2 24.2546)" stroke="#1500FF" stroke-width="4"/>
+<line y1="-2" x2="21.5655" y2="-2" transform="matrix(0.458637 0.888624 -0.888618 0.458648 14.9824 15.6)" stroke="white" stroke-width="4"/>
+<path d="M26.4821 32.2291C31.5338 20.7422 30.4191 1.13984 41.9364 11.211" stroke="white" stroke-width="4"/>
+<ellipse cx="37.2823" cy="16.6753" rx="2.18562" ry="2.18565" fill="white"/>
 </svg>
