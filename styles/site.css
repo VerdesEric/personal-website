@@ -470,7 +470,7 @@ nav ul li .contactme {
 
 .personal-portrait {
     position: absolute;
-    top: 31%;
+    top: 29%;
     left: 13%;
     opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
@@ -478,10 +478,22 @@ nav ul li .contactme {
     animation-delay: 0.3s;
 }
 
+.personal-portrait h3{
+    color: white;
+    text-align: center;
+    line-height: 18px;
+}
+
+.personal-portrait p{
+    color: white;
+    text-align: center;
+    line-height: 18px;
+}
+
 .about-me-p p {
     max-width: 600px;
     font-size: 20px;
-    margin-left: 660px;
+    margin-left: 670px;
     margin-top: 5px;
     flex-direction: column;
     color: white;
@@ -492,16 +504,16 @@ nav ul li .contactme {
     animation-delay: 0.3s;
 }
 
-.about-me-p img {
-    margin-left: 660px;
-    opacity: 0;
-    transform: translateY(-40px); /* create interactivity and animation for start of document */
-    animation: dropDownFade 1s ease-out forwards;
-    animation-delay: 0.3s;
+.about-me-p h2 {
+    color: #1500F7;
+    margin-left: 670px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .about-me-p {
-    margin-top: 216px;
+    margin-top: 182px;
 }
 
 .education {
