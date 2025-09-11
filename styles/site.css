@@ -470,7 +470,7 @@ nav ul li .contactme {
 
 .personal-portrait {
     position: absolute;
-    top: 29%;
+    top: 25.6%;
     left: 13%;
     opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
@@ -481,24 +481,27 @@ nav ul li .contactme {
 .personal-portrait h3{
     color: white;
     text-align: center;
-    line-height: 18px;
+    line-height: 14px;
 }
 
 .personal-portrait p{
     color: white;
     text-align: center;
-    line-height: 18px;
+    line-height: 14px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .about-me-p p {
     max-width: 600px;
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: 400;
     margin-left: 670px;
     margin-top: 5px;
     flex-direction: column;
     color: white;
     line-height: 1.5;
-    pacity: 0;
+    opacity: 0;
     transform: translateY(-40px); /* create interactivity and animation for start of document */
     animation: dropDownFade 1s ease-out forwards;
     animation-delay: 0.3s;
@@ -507,13 +510,47 @@ nav ul li .contactme {
 .about-me-p h2 {
     color: #1500F7;
     margin-left: 670px;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .about-me-p {
-    margin-top: 182px;
+    margin-top: 162px;
+}
+
+.core-values {
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.core-values h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.core-values-p {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.core-values-p h3{
+    font-size: 21px;
+    font-weight: 550;
+    margin-bottom: 3px;
+}
+
+.core-values-p p {
+    font-size: 19px;
+    width: 340px;
+    margin-top: 0;
+    font-weight: 300;
 }
 
 .education {
@@ -651,31 +688,48 @@ nav ul li .contactme {
 }
 
 .tennis {
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    color: white;
-    padding-top: 150px;
+  position: relative;
+  background: url("images/Background2.png") center/cover no-repeat;
+  color: white;
+  min-height: 70vh;          /* give the background area some height */
 }
 
+/* optional dark overlay to improve text contrast */
+.tennis::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+/* center the text block over the image */
 .tennis-p {
-    margin-top: 30px;
+  position: absolute;
+  inset: 0;                  /* top:0; right:0; bottom:0; left:0 */
+  display: flex;
+  flex-direction: column;  /* vertical center */   /* horizontal center */
+  z-index: 1;
+  box-sizing: border-box;
 }
 
-.heading {
-    margin-left: 33%;
+.tennis-p p {
+  max-width: 700px;
+  line-height: 1.5;
+  font-size: 20px;
 }
 
-.tennis-p p{
-    font-size: 20px;
-    margin-left: 33%;
-    width: 600px;
-    line-height: 1.5;
+.tennis-container {
+    direction: row;
 }
 
+/* place the Cornell logo over the background too */
 .cornell {
-    margin-left: 40px;
-    margin-bottom: -32.8px;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;              /* adjust as needed */
+  z-index: 1;
 }
 
 /* project 1 page */
@@ -1882,23 +1936,6 @@ footer h4 {
     margin-right: auto;
     margin-top: 50px;
   }
-
-  .tennis {
-    flex-direction: column;
-    padding-top: 50px;
-  }
-
-  .tennis-p p {
-    margin: 10px auto;
-    width: 90%;
-    text-align: center;
-    max-width: 500px;
-}
-
-.cornell {
-    margin-bottom: -20px;
-    margin-left: 0;
-}
 
 .heading {
     display: block;
