@@ -639,6 +639,7 @@ nav ul li .contactme {
 
 .skills1 {
     margin-top: 38px;
+    width: 500px;
 }
 
 .certifications {
@@ -1985,12 +1986,6 @@ footer h4 {
     text-align: center;
     margin-left: 0;
   }
-
-  .skills p {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
 
   .certifications {
     margin-left: 0;
