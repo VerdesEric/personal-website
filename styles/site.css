@@ -91,6 +91,8 @@ nav ul li .contactme {
 /* home page */
 .main {
     position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -122,7 +124,6 @@ nav ul li .contactme {
     font-family: 'Bakbak One', sans-serif;
     display: block;
     margin-top: 190px;
-    margin-left: 29%;
     z-index: 1;
     color: white;
     max-width: 650px;
@@ -189,13 +190,14 @@ nav ul li .contactme {
 .main p {
     display: block;
     margin-top: -67px;
-    margin-left: 29.15%;
     z-index: 1;
     color: white;
-    max-width: 650px;
+    max-width: 800px;
+    width: 100%;
     font-size: 25px;
     line-height: 1.5;
     font-weight: 300;
+    text-align: center;
 }
 
 .buttons {
@@ -203,8 +205,7 @@ nav ul li .contactme {
     flex-direction: row;
     /* padding-top: 450px; */
     gap: 40px;
-    margin-left: 34.7%;
-    margin-top: 45px;
+    margin-top: 25px;
 }
 
 .button-design a {
@@ -512,12 +513,16 @@ nav ul li .contactme {
 }
 
 .about-me-p h2 {
-    color: #1500F7;
+    color: white;
     margin-left: 670px;
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 10px;
     letter-spacing: 0.5px;
+}
+
+.about-me-h2 {
+    color: #1500F7;
 }
 
 .about-me-p {
@@ -1804,11 +1809,6 @@ footer h4 {
         box-sizing: border-box;
   }
 
-    .main p {
-        margin-top: 0px;
-        margin-bottom: 35px;
-    }
-
     .button-design a,
     .button-design1 a {
        margin-top: 15px;
@@ -1826,7 +1826,7 @@ footer h4 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    gap: 20px;
+    gap: 15px;
   }
 
     .button-design a {
