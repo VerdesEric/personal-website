@@ -76,9 +76,9 @@ nav ul li a:hover {
 nav ul li .contactme {
    background: linear-gradient(to right, #1500F7, #0D0099);
    height: 20px;
-   padding-top: 22px;
-   padding-bottom: 26px;
-   border-bottom-left-radius: 30px;
+   padding-top: 22.5px;
+   padding-bottom: 27px;
+   border-bottom-left-radius: 10px;
 }
 
 .logo {
@@ -160,11 +160,15 @@ nav ul li .contactme {
   display: inline-block;
   position: absolute;
   margin-bottom: -60px;
-  width: 65px;          /* adjust size */
+  width: 70px;          /* adjust size */
   margin-left: 10px;    /* spacing from name */
   opacity: 0;
   transform: scale(0.5);
   transition: all 0.5s ease;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }           /* fade into view */
 }
 
 /* Show the image when hovering over the name */
@@ -510,9 +514,10 @@ nav ul li .contactme {
 .about-me-p h2 {
     color: #1500F7;
     margin-left: 670px;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 10px;
+    letter-spacing: 0.5px;
 }
 
 .about-me-p {
@@ -522,14 +527,17 @@ nav ul li .contactme {
 .core-values {
     background-color: black;
     color: white;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .core-values h2 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 .core-values-p {
@@ -570,7 +578,7 @@ nav ul li .contactme {
 
 .education1 h3 {
     font-size: 21px;
-    color: #00eaff;
+    color: #1500F7;
 }
 
 .experience p {
@@ -579,7 +587,7 @@ nav ul li .contactme {
 
 .experience h3 {
     font-size: 21px;
-    color: #00eaff;
+    color: #1500F7;
 }
 
 .date {
@@ -603,7 +611,7 @@ nav ul li .contactme {
 .toolkit h2 {
     padding-bottom: 10px;
     background-color: white;
-    color: #00eaff;
+    color: #1500F7;
     font-size: 21px;
     margin-top: 0;
     margin-bottom: 0;
@@ -616,6 +624,8 @@ nav ul li .contactme {
 .skills p {
     margin-right: 520px;
     font-size: 17px;
+    width: auto;
+    white-space: nowrap;
 }
 
 .tools p {
@@ -623,7 +633,7 @@ nav ul li .contactme {
 }
 
 .tools h2 {
-    color: #00eaff;
+    color: #1500F7;
     font-size: 21px;
 }
 
@@ -642,7 +652,7 @@ nav ul li .contactme {
 
 .certifications h3 {
     font-size: 21px;
-    color: #00eaff;
+    color: #1500F7;
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -651,6 +661,7 @@ nav ul li .contactme {
     display: grid;
     grid-template-columns: 250px 250px 250px;
     grid-gap: 138px;
+    row-gap: 90px;
 }
 
 .certifications a {
@@ -675,7 +686,6 @@ nav ul li .contactme {
     width: 250px;
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 100px;
 }
 
 .accreditation {
@@ -694,42 +704,44 @@ nav ul li .contactme {
   min-height: 70vh;          /* give the background area some height */
 }
 
-/* optional dark overlay to improve text contrast */
-.tennis::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.35);
-}
-
 /* center the text block over the image */
-.tennis-p {
+.tennis-container {
   position: absolute;
   inset: 0;                  /* top:0; right:0; bottom:0; left:0 */
   display: flex;
-  flex-direction: column;  /* vertical center */   /* horizontal center */
+  flex-direction: row;
   z-index: 1;
   box-sizing: border-box;
+  gap: 70px;
+  justify-content: center;
 }
 
-.tennis-p p {
+.tennis-container p {
   max-width: 700px;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 19px;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 600px;
 }
 
 .tennis-container {
     direction: row;
 }
 
-/* place the Cornell logo over the background too */
-.cornell {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 180px;              /* adjust as needed */
-  z-index: 1;
+.passion-h2 {
+     color: #1500F7;
+}
+
+.tennis-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.tennis-img img {
+    margin-top: 30px;
 }
 
 /* project 1 page */
@@ -1680,7 +1692,7 @@ footer h4 {
 }
 
 #scrolltotop {
-    background-color: #0e0053;
+    background-color: #0c0049;
     color: white;
     font-family: 'DM Sans', sans-serif;
     padding: 10px;
