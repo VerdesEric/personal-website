@@ -334,7 +334,7 @@ nav ul li .contactme {
 
 .description a:hover {
     font-size: 18.5px;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 .second-mockup img {
@@ -395,7 +395,7 @@ nav ul li .contactme {
 
 .description1 a:hover {
     font-size: 18.5px;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 .third-mockup img {
@@ -455,7 +455,7 @@ nav ul li .contactme {
 
 .description2 a:hover {
     font-size: 18.5px;
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 /* about me page */
@@ -660,47 +660,23 @@ nav ul li .contactme {
     font-size: 21px;
     color: #1500F7;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+.certifications div {
     margin-bottom: 30px;
 }
 
-.certifications-images {
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-gap: 138px;
-    row-gap: 90px;
-}
-
-.certifications a {
-    text-decoration: none;
-}
-
-.accreditation h4 {
-    margin-top: 0;
+.certifications div h4{
     margin-bottom: 0;
+    margin-top: 13px;
     font-size: 18px;
-    color: black;
 }
 
-.accreditation p {
-    font-size: 17px;
-    color: black;
-}
-
-.accreditation {
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 250px;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.accreditation {
-    transition: transform 0.3s ease-in;
-    height: 290px;
-}
-
-.accreditation:hover {
-    transform: scale(1.02);
+.certifications div p{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 18px;
 }
 
 .tennis {
@@ -748,6 +724,24 @@ nav ul li .contactme {
 
 .tennis-img img {
     margin-top: 30px;
+}
+
+.resume {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.resume a {
+    color: black;
+    font-size: 21px;
+    font-weight: 550;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.resume a:hover{
+    font-size: 21.5px;
+    transition: all 0.4s ease;
 }
 
 /* project 1 page */
@@ -1990,13 +1984,6 @@ footer h4 {
   .certifications {
     margin-left: 0;
     text-align: center;
-  }
-   .certifications-images {
-    display: grid;
-    grid-template-columns: 1fr;  /* one column */
-    grid-gap: 10px;              /* adjust spacing between rows */
-    margin-left: auto;
-    margin-right: auto;
   }
 
 /* project 1 */
