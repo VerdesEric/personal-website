@@ -474,6 +474,55 @@ nav ul li .contactme {
     transition: all 0.4s ease;
 }
 
+.data-science {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.data-science h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.data-science p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+}
+
+.data-science img{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.20);
+}
+
+.data-science img:hover {
+    transform: scale(1.015);
+}
+
+.data-science-a {
+    display: block;
+    margin: 30px auto;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.data-science-a:hover{
+    font-size: 18.5px;
+    transition: all 0.4s ease;
+}
+
 /* about me page */
 .about-me {
     background-color: black;
