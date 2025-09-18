@@ -484,18 +484,16 @@ nav ul li .contactme {
 
 .data-science h2{
     font-size: 30px;
-    text-align: center;
 }
 
 .data-science p{
     font-size: 20px;
-    text-align: center;
     color: black;
     line-height: 1.5;
 }
 
 .data-science img{
-    width: 400px;
+    width: 350px;
     height: auto;
     border-radius: 10px;
     transition: transform 0.4s ease-in;
@@ -506,22 +504,51 @@ nav ul li .contactme {
     transform: scale(1.015);
 }
 
-.data-science-a {
-    display: block;
-    margin: 30px auto;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom: 2px solid black;
-    font-size: 18px;
-    text-align: center;
-    padding-bottom: 10px;
+.nba-draft {
+    display: flex;
+    flex-direction: row;
 }
 
-.data-science-a:hover{
+.nba-draft-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.7%;
+    padding-left: 80px;
+    border-left: solid black 1px;
+    height: 275px;
+}
+
+.nba-draft-text p{
+    color: black;
+    width: 90%;
+    max-width: 450px;
+    font-size: 20px;
+    margin-top: -7px;
+    line-height: 1.5;
+}
+
+.nba-draft-text a {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: solid 2px black;
+    color: black;
+    font-size: 18px;
+    width: 170px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nba-draft-text a:hover{
     font-size: 18.5px;
     transition: all 0.4s ease;
 }
+
+
 
 /* about me page */
 .about-me {
