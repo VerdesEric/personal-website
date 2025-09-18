@@ -427,7 +427,7 @@ nav ul li .contactme {
     flex-direction: row;
     margin-left: 11.3%;
     margin-top: 250px;
-    margin-bottom: 170px;
+    margin-bottom: 250px;
 }
 
 .description2 {
@@ -478,18 +478,29 @@ nav ul li .contactme {
   display: flex;
   flex-direction: column;
   justify-content: center; /* center horizontally */
+  margin-left: auto;
+  margin-right: auto;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+  color: black;
+  padding-bottom: 30px;
+  width: 85%;
+  max-width: 1000px;
 }
 
-.data-science h2{
+
+.data-science h2 {
     font-size: 30px;
+    text-align: center;
+    margin-bottom:0;
 }
 
 .data-science p{
     font-size: 20px;
     color: black;
     line-height: 1.5;
+    text-align: center;
+    margin-bottom: 200px;
 }
 
 .data-science img{
@@ -516,30 +527,39 @@ nav ul li .contactme {
     padding-left: 80px;
     border-left: solid black 1px;
     height: 275px;
+    text-align: center;
+    margin-top: 80px;
 }
 
-.nba-draft-text p{
+.nba-draft-text h2{
+    text-align:left;
+}
+
+.nba-draft-text p {
     color: black;
     width: 90%;
     max-width: 450px;
     font-size: 20px;
-    margin-top: -7px;
+    margin-top: 20px;
     line-height: 1.5;
+    text-align:left;
+    margin-bottom: 0;
 }
 
 .nba-draft-text a {
     display: inline-block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
     padding-bottom: 10px;
     background-color: white;
     border: none;
     border-bottom: solid 2px black;
     color: black;
     font-size: 18px;
-    width: 170px;
+    width: 145px;
     font-weight: bold;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
 }
 
@@ -547,8 +567,6 @@ nav ul li .contactme {
     font-size: 18.5px;
     transition: all 0.4s ease;
 }
-
-
 
 /* about me page */
 .about-me {
