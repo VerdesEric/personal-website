@@ -69,7 +69,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(214, 214, 214);
     transition: all 0.2s ease;
     font-size: 19.5px;
 }
@@ -80,11 +79,6 @@ nav ul li .contactme {
    padding-top: 22.5px;
    padding-bottom: 27px;
    border-bottom-left-radius: 10px;
-   transition: transform 0.4s ease;
-}
-
-nav ul li .contactme:hover {
-    transform: scale(1.03);
 }
 
 .logo {
@@ -194,6 +188,11 @@ nav ul li .contactme:hover {
   animation: fadeIn 1s ease-in forwards, wave 0.6s ease-in-out;
 }
 
+.hello-hand:hover {
+  animation: fadeIn 1s ease-in forwards, wave 0.6s ease-in-out;
+  cursor: text;
+}
+
 /* Show the image when hovering over the name */
 /* .h1:hover + .hello-hand {
   opacity: 1;
@@ -246,7 +245,7 @@ nav ul li .contactme:hover {
 }
 
 .button-design a:hover {
-    background-color: rgb(214, 214, 214);
+    /* background-color: rgb(214, 214, 214); */
     transform: scale(1.03);
 }
 
@@ -271,7 +270,7 @@ nav ul li .contactme:hover {
 }
 
 .button-design1 a:hover {
-    background: linear-gradient(to right, #1500ff, #0d009c);
+    /* background: linear-gradient(to right, #1500ff, #0d009c); */
     color: white;
     transform: scale(1.03);
 }
@@ -1812,7 +1811,7 @@ footer h4 {
 }
 
 .instagram:hover{
-    background-color:#1500ff;
+    transform: scale(1.03);
 }
 
 .linkedin {
@@ -1824,7 +1823,7 @@ footer h4 {
 }
 
 .linkedin:hover {
-    background-color: #1500ff;
+    transform: scale(1.03);
 }
 
 .facebook {
@@ -1834,7 +1833,7 @@ footer h4 {
 }
 
 .facebook:hover {
-    background-color: #1500ff;
+    transform: scale(1.03);
 }
 
 #scrolltotop {
@@ -1852,7 +1851,7 @@ footer h4 {
 }
 
 #scrolltotop:hover {
-    background-color:#1500ff;
+    transform: scale(1.03);
     cursor: pointer;
 }
 
