@@ -49,7 +49,7 @@ nav ul {
     flex-direction: row;
     padding: 0px;
     margin: 0px;
-    gap: 35px;
+    gap: 50px;
 }
 
 nav ul li {
@@ -71,6 +71,7 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(214, 214, 214);
     transition: all 0.2s ease;
+    font-size: 19.5px;
 }
 
 nav ul li .contactme {
@@ -79,6 +80,11 @@ nav ul li .contactme {
    padding-top: 22.5px;
    padding-bottom: 27px;
    border-bottom-left-radius: 10px;
+   transition: transform 0.4s ease;
+}
+
+nav ul li .contactme:hover {
+    transform: scale(1.03);
 }
 
 .logo {
@@ -236,11 +242,12 @@ nav ul li .contactme {
     width: 160px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
+    transition: transform 0.4s ease;
 }
 
 .button-design a:hover {
     background-color: rgb(214, 214, 214);
-    transition: all 0.3s ease;
+    transform: scale(1.03);
 }
 
 .button-design1 a {
@@ -260,12 +267,13 @@ nav ul li .contactme {
     width: 160px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
+    transition: transform 0.4s ease;
 }
 
 .button-design1 a:hover {
     background: linear-gradient(to right, #1500ff, #0d009c);
     color: white;
-    transition: all 0.3s ease;
+    transform: scale(1.03);
 }
 
 .intro-projects {
@@ -509,6 +517,7 @@ nav ul li .contactme {
     border-radius: 10px;
     transition: transform 0.4s ease-in;
     box-shadow: 0 4px 8px rgba(0,0,0,0.20);
+    margin-right: 20px;
 }
 
 .data-science img:hover {
