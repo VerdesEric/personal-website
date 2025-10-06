@@ -1948,10 +1948,25 @@ footer h4 {
         box-sizing: border-box;
   }
 
+  .main h1{
+    font-size: 60px;
+    margin-top:100px;
+  }
+
     .button-design a,
     .button-design1 a {
-       margin-top: 15px;
-       width: 90%;
+       width: 100%;              /* full-width on small screens */
+        max-width: 320px;         /* control maximum size */
+        padding: 18px 20px;       /* bigger height */
+        font-size: 18px;
+  }
+
+  .hello-hand {
+    width: 130px;
+  }
+
+  nav ul li .contactme {
+    background: black;
   }
 
     .main {
@@ -1966,14 +1981,7 @@ footer h4 {
     margin-left: auto;
     margin-right: auto;
     gap: 15px;
-  }
-
-    .button-design a {
-       max-width: 200px;
-  }
-
-    .button-design1 a {
-       max-width: 200px;
+    margin-top:80px;
   }
 
   .background-photo {
@@ -2016,6 +2024,49 @@ footer h4 {
   .description2 a {
     margin: 30px auto 0 auto;
   }
+
+.nba-draft {
+  /* was: flex row; keep desktop as-is, only override here */
+  display: flex;              /* keeps your current flex model */
+  flex-direction: column;     /* stack image above text */
+  align-items: center;        /* center the stack */
+  gap: 20px;                  /* nice breathing room */
+}
+
+.nba-draft > a {
+  /* center the image link block */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data-science img {
+  /* let the image fit small screens without overflowing */
+  width: 100%;
+  max-width: 350px;           /* keeps your original look, just responsive */
+  height: auto;
+}
+
+.nba-draft-text {
+  /* remove the desktop left gutter & rule ONLY on small screens */
+  margin-top: 10px;
+  padding-left: 0;
+  border-left: none;
+  text-align: center;
+  margin-left: 0;
+}
+
+.nba-draft-text h2,
+.nba-draft-text p {
+  text-align: center;         /* match your mockup sections on mobile */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nba-draft-text a {
+  /* keep the button centered */
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .contacts {
     margin-left: auto !important;
