@@ -5,7 +5,7 @@ html {
 
 body {
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 400;
     margin: 0;
     background-color: white;
@@ -59,8 +59,8 @@ nav ul li {
 
 nav ul li a {
     position: relative;
-    padding: 18pt 24pt;
-    font-size: 19px;
+    padding: 18pt 28pt;
+    font-size: 17px;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -70,15 +70,7 @@ nav ul li a {
 
 nav ul li a:hover {
     transition: all 0.2s ease;
-    font-size: 19.5px;
-}
-
-nav ul li .contactme {
-   background: linear-gradient(to right, #1500F7, #0D0099);
-   height: 20px;
-   padding-top: 22.5px;
-   padding-bottom: 27px;
-   border-bottom-left-radius: 10px;
+    font-size: 18px;
 }
 
 .logo {
@@ -95,6 +87,7 @@ nav ul li .contactme {
     flex-direction: column;
     width: 100%;
     height: 100%;
+    margin-top: 30px;
     justify-content: center;
     align-items: center;
     opacity: 0;
@@ -121,18 +114,19 @@ nav ul li .contactme {
 }
 
 .main h1 {
-    font-family: 'Bakbak One', sans-serif;
+    font-family: 'Inter', sans-serif;
     display: block;
     margin-top: 190px;
     z-index: 1;
     color: white;
     max-width: 650px;
     font-size: 100px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: 800;
 }
 
-.main .h1{
-    color: #1500F7;
+.main .h1 span{
+    color: #1500ff;
     position: relative;
 }
 
@@ -151,25 +145,26 @@ nav ul li .contactme {
 }
 
 /* Stagger delays */
-.h1 span:nth-child(1) { animation-delay: 2.5s; }
-.h1 span:nth-child(2) { animation-delay: 2.7s; }
-.h1 span:nth-child(3) { animation-delay: 2.9s; }
-.h1 span:nth-child(4) { animation-delay: 3.1s; }
-.h1 span:nth-child(5) { animation-delay: 3.3s; }
+.h1 span:nth-child(1) { animation-delay: 2.1s; }
+.h1 span:nth-child(2) { animation-delay: 2.3s; }
+.h1 span:nth-child(3) { animation-delay: 2.5s; }
+.h1 span:nth-child(4) { animation-delay: 2.7s; }
+.h1 span:nth-child(5) { animation-delay: 2.9s; }
+
 
 .hello-hand {
   display: inline-block;
   position: absolute;
-  margin-top: -140px;
+  margin-top: -160px;
   width: 150px;
-  margin-left: -30px;
+  margin-left: -35px;
 
   opacity: 0;
   transform: rotate(0deg) scale(0.5);
   transform-origin: bottom center;
 
   animation: fadeIn 1s ease-in forwards;
-  animation-delay: 3.8s;
+  animation-delay: 3.2s;
 }
 
 @keyframes fadeIn {
@@ -213,7 +208,7 @@ nav ul li .contactme {
     margin-top: -67px;
     z-index: 1;
     color: white;
-    max-width: 800px;
+    max-width: 750px;
     width: 100%;
     font-size: 25px;
     line-height: 1.5;
@@ -236,7 +231,7 @@ nav ul li .contactme {
     color: black;
     padding: 15px;
     font-size: 16px;
-    border-radius: 50px;
+    border-radius: 12px;
     font-weight: bold;
     width: 160px;
     text-align: center;
@@ -261,7 +256,7 @@ nav ul li .contactme {
     color: white;
     padding: 15px;
     font-size: 16px;
-    border-radius: 50px;
+    border-radius: 12px;
     font-weight: bold;
     width: 160px;
     text-align: center;
@@ -273,6 +268,189 @@ nav ul li .contactme {
     /* background: linear-gradient(to right, #1500ff, #0d009c); */
     color: white;
     transform: scale(1.03);
+}
+
+.design-photo {
+    margin-top: 450px;
+    margin-left: 120px;
+}
+
+.projects {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  padding-top: 200px; /* your section offset */
+}
+
+/* Center vertical line */
+.projects::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1.5px;
+  background: #000000;
+}
+
+/* LEFT SIDE — vertically centered inside the whole section */
+.projects-left {
+  position: sticky;   /* <-- make the whole left column stick */
+  top: 0;             /* <-- stay at top of viewport */
+  height: 100vh;      /* fill viewport height */
+  display: flex;      /* so we can center the image */
+  justify-content: center;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+/* Inner image wrapper */
+.project-left-inner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* RIGHT SIDE */
+.projects-right {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding-left: 4rem;
+  margin-top: 235px;
+  max-width: 600px;
+  margin-bottom:50px;
+}
+
+/* Project row with plus sign */
+.project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;            /* square box so rotation does not shift */
+  height: 3rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  margin-left: -87.3px;
+}
+
+/* The + character */
+.plus {
+  display: inline-flex;          /* keeps things centered */
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;                   /* fill the box */
+  height: 100%;
+  font-size: 5rem;             /* adjust as needed */
+  font-weight: 500;              /* bold so X looks nice */
+  line-height: 1;                /* CRUCIAL: removes baseline shift */
+  transform-origin: center;      /* rotate around exact center */
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+/* Hover color (optional) */
+.project-item:hover .plus {
+  color: #1500F7;
+  z-index:1;
+}
+
+/* Open state: turn + into X */
+.plus.open {
+  transform: rotate(45deg);      /* no shifting now */
+}
+/* .project-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  margin-left: -87.5px;
+  width: 30px;
+} */
+/*
+.plus {
+  font-size: 5rem;
+  font-weight: 550;
+  display: inline-block;
+  width: 2.5rem;
+  text-align: center;
+  z-index: 1;
+} */
+
+.project-block .project-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+/* Hover effect: spin the plus, slight shift */
+/* .project-item:hover .plus {
+  color:#1500F7;
+} */
+
+.project-row {
+  display: flex;
+  align-items: center;   /* vertically center them on the same line */
+  gap: 4rem;          /* space between + and title */
+}
+
+
+.project-content {
+  max-height: 650px;             /* big enough for your content */
+  opacity: 1;
+  transform: translateY(0);
+  overflow: hidden;
+  transition:
+    max-height 0.3s ease,
+    opacity 0.25s ease,
+    transform 0.3s ease;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+}
+
+/* closed state */
+.project-content.hidden {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(6px);    /* very small motion */
+}
+
+/* plus rotation (also subtle) */
+.plus {
+  transition: transform 0.25s ease;
+}
+
+.plus.open {
+  transform: rotate(45deg);
+}
+
+/* .project-content p {
+    text-align: center;
+} */
+
+.project-content a {
+    display: inline-block;
+    background: linear-gradient(to right, #1500ff, #0a007d);
+    color: white;
+    margin-left: 3px;
+    padding: 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: transform 0.4s ease;
+}
+
+.project-content a:hover {
+    transform: scale(1.02);
+    z-index: 1;
 }
 
 .intro-projects {
@@ -578,7 +756,7 @@ nav ul li .contactme {
 
 /* about me page */
 .about-me {
-    background-color: black;
+    background: linear-gradient(#110067, #000000);
     margin-top: -83px;
     height: 100%;
     display: flex;
@@ -601,24 +779,28 @@ nav ul li .contactme {
     animation-delay: 0.3s;
 }
 
-.personal-portrait h3{
+.personal-portrait img {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+}
+
+.personal-portrait h3 {
     color: white;
     text-align: center;
     line-height: 14px;
 }
 
-.personal-portrait p{
+.personal-portrait p {
     color: white;
     text-align: center;
     line-height: 14px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: lighter;
 }
 
 .about-me-p p {
     max-width: 600px;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: lighter;
     margin-left: 670px;
     margin-top: 5px;
     flex-direction: column;
@@ -647,10 +829,24 @@ nav ul li .contactme {
     margin-top: 162px;
 }
 
+.about-me-p .inline{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.visual {
+    background-color: black;
+}
+
+.visual img {
+    margin-top: 7px;
+    margin-left: 660px;
+}
+
 .core-values {
     background-color: black;
     color: white;
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 150px;
 }
 
@@ -825,14 +1021,14 @@ nav ul li .contactme {
 
 .resume-a {
     display: block;
-    margin: 30px auto;
-    color: black;
-    font-weight: bold;
+    margin-top:30px;
+    color: white;
+    font-weight: 500;
     text-decoration: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     font-size: 18px;
     text-align: center;
-    width: 269px;
+    width: 245px;
     padding-bottom: 10px;
 }
 
@@ -867,6 +1063,7 @@ nav ul li .contactme {
   margin-bottom: 0;
   margin-top: 0;
   width: 600px;
+  font-weight: lighter;
 }
 
 .tennis-container {
@@ -886,6 +1083,7 @@ nav ul li .contactme {
 
 .tennis-img img {
     margin-top: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
 }
 
 
@@ -1754,7 +1952,7 @@ footer {
     color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, #000000, #110067);
+    background: black;
 }
 
 footer a {
@@ -1772,12 +1970,13 @@ footer h4 {
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 10px;
+    font-weight: lighter;
 }
 
 .greet {
     font-size: 25px;
     font-weight: 1000;
-    color: #1500ff;
+    color: white;
     padding-top: 35px;
     margin-left: 50px;
     margin-bottom: 5px;
@@ -1785,9 +1984,14 @@ footer h4 {
 }
 
 .email {
-    margin-top: 0;
+    margin-top: 10px;
     margin-left: 50px;
     font-size: 21px;
+    font-weight: lighter;
+}
+
+.email a{
+    text-decoration: underline;
 }
 
 .contacts-p {
@@ -1804,55 +2008,55 @@ footer h4 {
 }
 
 .instagram {
-    border: 2px solid white;
-    border-radius: 12px;
-    padding: 3.2px;
-    margin-right: 10px;
+    padding: 10.5px;
+    margin-bottom: 0.5px;
 }
 
 .instagram:hover{
     transform: scale(1.03);
+    transition: all 0.4s ease;
 }
 
 .linkedin {
-    border: 2px solid white;
     /* border-radius: 50%; */
-    border-radius: 12px;
     padding: 7.3px;
-    margin-right: 10px;
+    margin-left: 38px;
+    margin-top:18px;
 }
 
 .linkedin:hover {
     transform: scale(1.03);
+    transition: all 0.4s ease;
 }
 
 .facebook {
-    border: 2px solid white;
-    border-radius: 12px;
     padding: 4.9px;
+    margin-bottom: 3px;
 }
 
 .facebook:hover {
     transform: scale(1.03);
+    transition: all 0.4s ease;
 }
 
-#scrolltotop {
-    background-color: #0c0049;
+.scroll-to-top {
     color: white;
-    font-family: 'DM Sans', sans-serif;
-    padding: 10px;
-    border-radius: 20px;
+    background-color: black;;
+    font-family: 'Helvetica', sans-serif;
+    padding:10px;
+    border-radius: 12px;
     font-size: 18px;
     border: 2px white solid;
-    margin-left: 82%;
-    margin-top: 10px;
     width: 153px;
-    font-weight: 530;
+    font-weight: 500;
+    margin-top: -10px;
 }
 
-#scrolltotop:hover {
+
+.scroll-to-top:hover {
     transform: scale(1.03);
     cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 /* navigation (between pages) - bottom of page */
@@ -1963,10 +2167,6 @@ footer h4 {
 
   .hello-hand {
     width: 130px;
-  }
-
-  nav ul li .contactme {
-    background: black;
   }
 
     .main {
@@ -2128,7 +2328,7 @@ footer h4 {
     text-align: center;
   }
 
-  .about-me-p p{
+  .about-me-p p {
     margin: 10px auto;
     width: 90%;
     /* max-width: 100%; */

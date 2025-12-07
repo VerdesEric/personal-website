@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/site.css">
     <title>Portfolio | Eric Verdes</title>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/Icon.svg" type="image/x-icon">
 </head>
 
@@ -15,87 +14,97 @@
         <a href="index.html"><img src="images/Logo.svg" alt="Logo" class="logo"></a>
         <nav class="nav-menu">
             <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a class="contactme" href="mailto:edv23@cornell.edu">Contact Me</a></li>
+                <li><a href="index.html">WORK</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a class="contactme" href="mailto:edv23@cornell.edu">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
 
 <body>
-    <img src="images/Background.png" alt="Background photo" class="background-photo">
+    <img src="images/Background.svg" alt="Background photo" class="background-photo">
     <div class="main">
-        <h1>Hi, I'm <span class="h1">
-            <span>E</span><span>r</span><span>i</span><span>c</span><span>!</span>
-        </span>
-        <img src="images/Hi.svg" alt="Hello hand" class="hello-hand">
+        <h1 class="h1">
+            Hi, I'm <span>E</span><span>r</span><span>i</span><span>c</span><span>!</span>
+            <img src="images/Hi.svg" alt="Hello hand" class="hello-hand">
         </h1>
         <p>ML Researcher, UX Designer, student-athlete, and performance-driven thinker @ <span class="underline-text"><a href="https://www.orioninc.com/">Orion</a></span> and <span class="underline-text"><a href="https://infosci.cornell.edu/">Cornell University</a>.</span></p>
         <div class="buttons">
             <div class="button-design">
-                <a href="#intro-projects">Explore My Work &#8595;</a>
+                <a href="#projects">Explore My Work</a>
             </div>
             <div class="button-design1">
                 <a href="about.html">Learn About Me</a>
             </div>
         </div>
     </div>
-    <div class="intro-projects scroll-scale" id="intro-projects">
-        <h2>Crafting Meaningful Experiences</h2>
-        <p>I design intuitive, minimalist, and user-focused digital experiences that enhance usability and elevate user interactions. Below you'll find a selection of my projects, each designed to deliver seamless and engaging solutions that prioritize both functionality and user needs.
-    </div>
-    <div class="first-mockup scroll-scale">
-        <a href="project1.html"><img src="images/Mockup1.svg" alt="Credibility Companion Mockup"></a>
-        <div class="description">
+
+    <section class="projects" id="projects">
+      <div class="projects-left">
+        <div class="projects-left-inner">
+          <img src="images/Design.svg" alt="Design Photo">
+        </div>
+      </div>
+
+      <div class="projects-right">
+        <div class="project-block">
+          <div class="project-row">
+            <button class="project-item">
+              <span class="plus">+</span>
+            </button>
+          <span class="project-title">Project I</span>
+          </div>
+          <div class="project-content hidden">
+            <img src="images/Mockup1.svg" alt="Credibility Companion Mockup">
             <h2>Credibility Companion</h2>
             <p>Transforming political podcast consumption for Gen Z through personalized, reflective, and community-driven tools, enhancing trust and media literacy.</p>
-            <a href="project1.html">Explore Project &#8594;</a>
+              <a href="project1.html">Explore Project</a>
+          </div>
         </div>
+
+    <div class="project-block">
+    <div class="project-row">
+      <button class="project-item">
+        <span class="plus">+</span>
+      </button>
+      <span class="project-title">Project II</span>
     </div>
-    <div class="second-mockup scroll-scale">
-        <a href="project2.html"><img src="images/Mockup2.svg" alt="Room Vision Mockup"></a>
-        <div class="description1">
-            <h2>Room Vision</h2>
-            <p>Transforming dorm and small-apartment living through personalized, sustainable, and functional design, enhancing comfort and student experience.</p>
-            <a href="project2.html">Explore Project &#8594;</a>
-        </div>
+      <div class="project-content hidden">
+        <img src="images/Mockup2.svg" alt="Room Vision Mockup">
+        <h2>Room Vision</h2>
+        <p>Transforming dorm and small-apartment living through personalized, sustainable, and functional design, enhancing comfort and student experience.</p>
+            <a href="project2.html">Explore Project</a>
+      </div>
     </div>
-    <div class="third-mockup scroll-scale">
-        <a href="project3.html"><img src="images/Mockup3.svg" alt="Tennis House Mockup"></a>
-        <div class="description2">
-            <h2>Tennis House</h2>
-            <p>Designing an innovative eCommerce platform that streamlines entry management and enhances the tennis gear browsing experience.</p>
-            <a href="project3.html">Explore Project &#8594;</a>
-        </div>
+
+    <div class="project-block">
+    <div class="project-row">
+      <button class="project-item">
+        <span class="plus">+</span>
+      </button>
+      <span class="project-title">Project III</span>
     </div>
-    <div class="data-science scroll-scale">
-        <h2>Applied Data Science</h2>
-        <p>Beyond UX design, I apply data science to analyze complex datasets and uncover meaningful insights. My work spans using statistical methods and machine learning to understand trends, evaluate performance, and support data-driven decision-making.</p>
-        <div class="nba-draft scroll-scale">
-            <a href="images/report.pdf">
-                <img src="images/NBAData.svg">
-            </a>
-            <div class="nba-draft-text">
-                <h2>Analyzing NBA Draft Data</h2>
-                <p>Analyzing NBA draft data to uncover how draft position influences playing time and player value in the league.</p>
-                <a class="data-science-a" href="images/report.pdf">View Report &#8594;</a>
-            </div>
-        </div>
+      <div class="project-content hidden">
+        <img src="images/Mockup3.svg" alt="Room Vision Mockup">
+        <h2>Tennis House</h2>
+        <p>Designing an innovative eCommerce platform that streamlines entry management and enhances the tennis gear browsing experience.</p>
+            <a href="project3.html">Explore Project</a>
+      </div>
     </div>
+    </div>
+  </section>
 <footer>
     <p class="greet">I'd love to connect.</p>
-    <p class="email">Feel free to reach out at: <a href="mailto:edv23@cornell.edu">edv23@cornell.edu</a>.</p>
-    <p class="contacts-p">Find me on:</p>
-    <div class="contacts">
-        <a href="https://www.linkedin.com/in/edv23/"><img src="images/LinkedinIcon.svg" alt="LinkedIn icon" class="linkedin"></a>
-        <a href="https://www.instagram.com/ericverdes/"><img src="images/InstagramIcon.svg" alt="Instagram icon" class="instagram"></a>
-        <a href="https://www.facebook.com/eric.verdes.3/"><img src="images/FacebookIcon.svg" alt="Facebook icon" class="facebook"></a>
-    </div>
-    <button id="scrolltotop">Back to top &#8593;</button>
+    <p class="email">Reach me at <a href="mailto:edv23@cornell.edu">edv23@cornell.edu</a>.</p>
+    <a href="https://www.linkedin.com/in/edv23/"><img src="images/LinkedinIcon.svg" alt="LinkedIn icon" class="linkedin"></a>
+    <a href="https://www.facebook.com/eric.verdes.3/"><img src="images/FacebookIcon.svg" alt="Facebook icon" class="facebook"></a>
+    <a href="https://www.instagram.com/ericverdes/"><img src="images/InstagramIcon.svg" alt="Instagram icon" class="instagram"></a>
+      <!-- <button class="scroll-to-top" id="scrolltotop">Back to top</button> -->
     <h4>Designed & coded by Eric Verdes &copy; 2025</h4>
 </footer>
 
 <script src="js/script.js"></script>
+<script src="js/projects-hidden.js"></script>
 
 </body>
 
