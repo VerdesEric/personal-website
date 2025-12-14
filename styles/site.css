@@ -290,7 +290,7 @@ nav ul li a:hover {
   top: 0;
   bottom: 0;
   left: 50%;
-  width: 1.5px;
+  width: 1px;
   background: #000000;
 }
 
@@ -334,7 +334,7 @@ nav ul li a:hover {
   border: none;
   padding: 0;
   cursor: pointer;
-  margin-left: -87.3px;
+  margin-left: -87.5px;
 }
 
 /* The + character */
@@ -342,7 +342,6 @@ nav ul li a:hover {
   display: inline-flex;          /* keeps things centered */
   align-items: center;
   justify-content: center;
-
   width: 100%;                   /* fill the box */
   height: 100%;
   font-size: 5rem;             /* adjust as needed */
@@ -453,6 +452,9 @@ nav ul li a:hover {
     z-index: 1;
 }
 
+.project-content .mockup3{
+    padding-top: 60px;
+}
 .intro-projects {
     color: black;
     margin-left: auto;
@@ -844,7 +846,7 @@ nav ul li a:hover {
 }
 
 .core-values {
-    background-color: black;
+    background-color:black;
     color: white;
     padding-top: 120px;
     padding-bottom: 150px;
