@@ -412,6 +412,8 @@ nav ul li a:hover {
     transform 0.3s ease;
   font-family: 'Helvetica', sans-serif;
   font-weight: lighter;
+  align-items: center;
+  text-align:center;
 }
 
 /* closed state */
@@ -1162,14 +1164,15 @@ nav ul li a:hover {
     color: black;
     background-color: white;
     padding: 15px;
-    border-radius: 50px;
+    border-radius: 12px;
     width: 130px;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
+    transition: transform 0.4s ease;
 }
 
 .report-button a:hover{
-    background-color:#0D99FF;
-    color: white;
+    transform: scale(1.03);
 }
 
 .scroll-scale {
@@ -1389,14 +1392,15 @@ nav ul li a:hover {
     color: black;
     background-color: white;
     padding: 15px;
-    border-radius: 50px;
+    border-radius: 12px;
     width: 130px;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
+    transition: transform 0.4s ease;
 }
 
 .report-button2 a:hover{
-    background-color: #624EFF;
-    color: white;
+    transform: scale(1.03);
 }
 
 .design-proj2 {
@@ -1497,11 +1501,11 @@ nav ul li a:hover {
 .low-fidelity h4 {
     font-size: 19.5px;
     margin-bottom: 8px;
-    /* margin-top: 80px; !important */
+    margin-top: 8px; !important
 }
 
 .low-fid-paragraph {
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 .low-fid-paragraph p{
     width: 450px;
@@ -2082,20 +2086,21 @@ footer h4 {
 
 .navigation a {
     text-decoration: none;
+    background: linear-gradient(to right, #1500ff, #0a007d);
     color: white;
     font-size: 20px;
-    font-weight: 500;
-    border: 2px solid white;
+    font-weight: bold;
     padding: 15px;
-    border-radius: 30px;
+    border-radius: 12px;
     text-align: center;
     width: 230px;
     height: 25px;
+    box-shadow: 0 4px 12px rgba(55, 55, 55, 0.25);
+    transition: transform 0.4s ease;
 }
 
 .navigation a:hover {
-    background-color: white;
-    color: black;
+    transform: scale(1.03);
 }
 
 .navigation1 {
